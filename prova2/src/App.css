@@ -1,0 +1,67 @@
+.container {
+  padding: 20px;
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cartao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 2px solid #999;
+  border-radius: 12px;
+
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.esquerda {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.status {
+  color: gray;
+  margin-left: 10px;
+  
+}
+
+.icone {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.sucesso {
+  fill: green;
+}
+
+.erro {
+ fill: red;
+}
+
+.neutro {
+  fill: gray;
+}
+
+.alerta {
+  width: 16px;
+  height: 16px;
+  fill: gray;
+}
+
+.alerta {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  fill: gray;
+}
